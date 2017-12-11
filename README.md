@@ -6,16 +6,16 @@ Python3
 Python Requests library
 
 ## Usage
+To display detailed flight info for only arrival flights
 ```shell
 python3 flight_info.py
 python3 flight_info.py --t arrival --v true
 ```
-(for displaying detailed flight info for Delhi Airport for only arrival flights between 1200 and 1800 IST) </br>
+To display detailed flight info for only departure flights
 ```shell
 python3 flight_info.py --t departure --v false </br>
 ```
-(for displaying flight count only for Delhi Airport for departure flights between 1200 and 1800 IST) </br>
-
+*The data is only for Delhi Aiport between 1200 and 1800 IST
 
 
 
