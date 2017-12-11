@@ -52,7 +52,7 @@ def parseFlighStatData(url,data_file, verbose, chosen_info_type):
         #print the number of flights between out interval keyed by date
         for key in parsed_data.keys():
             num=len(parsed_data[key])
-            print("No. of flight {0} or scehdule on {1} Dec on delhi airport in our interval is {2}".format(chosen_info_type.name,key,num))
+            print("No. of flight {0} or scehduled on {1} Dec on delhi airport in our interval is {2}".format(chosen_info_type.name,key,num))
         
         #print the flight info as well
         if(verbose):
